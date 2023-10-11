@@ -24,13 +24,14 @@ public class Clazz {
         arr[5] = bool;
         arr[6] = b;
         arr[7] = s;
-        
+        arr[8] = stirng;
         return Arrays.toString(arr);
     }
 
     public static void main(String[] args) {
         var clazz = new Clazz();
         System.out.println(clazz.toString());
+        System.out.println(Arrays.toString(new Object[10]));
     }
     
 }
